@@ -237,11 +237,12 @@ padding: 120px 0;
 .list-section-two {
     display: flex;
     gap: 24px;
+    padding-left: 0;
+    margin: 0;
 }
 
 .item-list-section-two{
-    padding-left: 0;
-    margin: 0;
+width: calc((100%-72px)/4);
 }
 
 .list-section-tree {
