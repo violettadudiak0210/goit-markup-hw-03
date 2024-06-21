@@ -61,8 +61,13 @@ body {
 .address-link:hover {
     color: #404bbf;
 }
+
 .address-link:focus {
     color: #404bbf;
+}
+
+.img {
+    display: block;
 }
 
 .section-one {
@@ -206,7 +211,7 @@ padding: 120px 0;
 }
 
 .menu-nav-list {
-    padding: 24px 0;
+    padding: 24px 0 24px;
 }
 
 .address-list {
@@ -233,7 +238,7 @@ padding: 120px 0;
 }
 
 .item-list-section-two{
-    width: calc(100%-72px);
+    width: calc((100%-72px)/4);
 }
 
 .list-section-tree {
