@@ -67,6 +67,7 @@ body {
 
 .section-one {
     background-color: #2e2f42;
+    padding: 188px 0;
 
 }
 
@@ -76,6 +77,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFF;
+    max-width: 496px;
 }
 
 .button {
@@ -85,6 +87,11 @@ body {
     letter-spacing: 0.04em;
     color: #FFF;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .button:hover {
     background-color: #404bbf;
@@ -93,21 +100,30 @@ body {
     background-color: #404bbf;
 }
 
+.section-two {
+padding: 120px 0;
+}
+
 .header-three {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .paragraph {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .section-three {
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 
 .header-two {
@@ -117,16 +133,46 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+    margin-bottom: 72px;
 }
 
-.list-section-three {
-background-color: #FFF;
+.item-list-section-three {
+    background-color: #FFF;
+    width: calc(100%-72px);
+    border-radius: 0px 0px 4px 4px;
+}
+.section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
+.list-section-four {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.item-list-section-four {
+    width: calc(100%-48px);
+}
+
+.container-div-section-four {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
+.header-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .span-footer {
     color: #f4f4fd;
 }
@@ -135,6 +181,7 @@ background-color: #FFF;
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
 .header-container {
@@ -142,9 +189,9 @@ background-color: #FFF;
 }
 
 .container {
-width: 1158px;
-margin: 0 auto;
-padding: 0 15px;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .nav-header {
@@ -159,11 +206,41 @@ padding: 0 15px;
 }
 
 .menu-nav-list {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 
 .address-list {
     display: flex;
     gap: 40px;
+}
+
+.advantages-visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.list-section-two {
+    display: flex;
+    gap: 24px;
+}
+
+.item-list-section-two{
+    width: calc(100%-72px);
+}
+
+.list-section-tree {
+    display: flex;
+    gap: 24px;
+}
+
+.div-section-tree {
+    padding: 32px 0;
 }
