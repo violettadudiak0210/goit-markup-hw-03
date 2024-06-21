@@ -240,7 +240,7 @@ padding: 120px 0;
 }
 
 .item-list-section-two{
-    flex-basis: calc((100%-72px)/4);
+    flex-basis: calc(100%-72px);
 }
 
 .list-section-tree {
