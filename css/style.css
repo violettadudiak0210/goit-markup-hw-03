@@ -39,6 +39,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
 }
 .krater:hover {
     color: #404bbf;
@@ -211,7 +212,8 @@ padding: 120px 0;
 }
 
 .menu-nav-list {
-    padding: 24px 0 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .address-list {
@@ -238,7 +240,7 @@ padding: 120px 0;
 }
 
 .item-list-section-two{
-    width: calc((100%-72px)/4);
+    flex-basis: calc((100%-72px)/4);
 }
 
 .list-section-tree {
