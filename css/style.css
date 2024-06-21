@@ -16,6 +16,7 @@ body {
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #4d5ae5;
+   border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
@@ -26,6 +27,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .span-class {
     color: #2e2f42
@@ -133,4 +135,35 @@ background-color: #FFF;
     line-height: 1.5;
     color: #f4f4fd;
     letter-spacing: 0.02em;
+}
+
+.header-container {
+    display: flex;
+}
+
+.container {
+width: 1158px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+}
+
+.menu-nav {
+    display: flex;
+    gap: 40px;
+
+}
+
+.menu-nav-list {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
 }
