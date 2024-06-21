@@ -1,0 +1,136 @@
+body {  
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFF;
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+}
+.header {
+   font-family: "Raleway", sans-serif;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #4d5ae5;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.span-class {
+    color: #2e2f42
+}
+
+.krater {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.krater:hover {
+    color: #404bbf;
+}
+.krater:focus {
+    color: #404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-link:hover {
+    color: #404bbf;
+}
+.address-link:focus {
+    color: #404bbf;
+}
+
+.section-one {
+    background-color: #2e2f42;
+
+}
+
+.header-one {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFF;
+}
+
+.button {
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFF;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #404bbf;
+}
+.button:focus {
+    background-color: #404bbf;
+}
+
+.header-three {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.paragraph {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.section-three {
+    background-color: #f4f4fd;
+}
+
+.header-two {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.list-section-three {
+background-color: #FFF;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.span-footer {
+    color: #f4f4fd;
+}
+
+.paragraph-footer {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+}
